@@ -1,4 +1,13 @@
 Halq::Application.routes.draw do
+  root :to=> "homes#index"
+  get "homes/index"
+
+  get "homes/about"
+
+  get "homes/sitemap"
+
+  devise_for :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
