@@ -11,7 +11,7 @@ gem 'mysql2'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
@@ -29,3 +29,11 @@ gem 'mysql2'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem  'jquery-rails'
+gem 'mysql'
+gem 'rmagick'
+gem 'paperclip'
+gem 'will_paginate', '~>3.0.pre2'
+gem 'devise'
+gem 'cancan'
+gem 'passenger'
